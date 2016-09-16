@@ -206,7 +206,7 @@ Here you will need to define the RCON password. Again it's not set by default in
 ```
 RCONPASS=BESTPASSWORDEVER # Will try to use this password to RCON to the server.
 ```
-#POSSIBLE FEATURES
+#POSSIBLE FUTURE FEATURES
 The reason I say possible is because this is designed for my needs and will only be added if it is needed or highly requested.
 - [ ] Menu
 - [ ] Option to disable features
