@@ -5,7 +5,7 @@ This is a script that was designed to help automate: Backups, Auto-Restart, and 
 
 This Script uses and assumes that you have [mcrcon](https://bukkit.org/threads/admin-rcon-mcrcon-remote-connection-client-for-minecraft-servers.70910/) in the same location as the script.
 
-It uses mcrcon to allow a remote connection to be able to run commands like "say", "save-all", "stop". Instead of just killing the process of the server. The nice thing is if you setup the script like I explain below, then even if the script was to crash or stop, it will not bring down the server(Except if it crashes during the restart phase). 
+It uses mcrcon to allow a remote connection to be able to run commands like "say", "save-all", "stop". Instead of just killing the process of the server. The nice thing is if you setup the script like I explain [below](https://github.com/bigbaddevil7/MCGO/blob/master/README.md#how-to-use-this-script), then even if the script was to crash or stop, it will not bring down the server(Except if it crashes during the restart phase). 
 
 #Features
 ##Backups
