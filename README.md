@@ -208,5 +208,5 @@ RCONPASS=BESTPASSWORDEVER # Will try to use this password to RCON to the server.
 ```
 #POSSIBLE FEATURES
 The reason I say possible is because this is designed for my needs and will only be added if it is needed or highly requested.
-- [] Menu
-- [] Option to disable features
+- [ ] Menu
+- [ ] Option to disable features
