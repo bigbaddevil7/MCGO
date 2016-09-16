@@ -1,11 +1,11 @@
 # MCGO
 A Script To Automate Minecraft Linux Servers
 
-This is a script that is designed to help automate: Backups, Auto-Restart, and Maintence Restarts.
+This is a script that was designed to help automate: Backups, Auto-Restart, and Maintence Restarts for my Minecraft Servers. I have decided to make it public in order to hopefully help others with there server management. I am bot responsibe for any issues that may cause server information loss.  
 
 This Script uses and assumes that you have [mcrcon](https://bukkit.org/threads/admin-rcon-mcrcon-remote-connection-client-for-minecraft-servers.70910/) in the same location as the script.
 
-It uses mcrcon to allow a remote connection to be able to run commands like "say", "save-all", "stop". Instead of just killing the process of the server. 
+It uses mcrcon to allow a remote connection to be able to run commands like "say", "save-all", "stop". Instead of just killing the process of the server. The nice thing is if you setup the script like I explain below, then even if the script was to crash or stop, it will not bring down the server(Except if it crashes during the restart phase). 
 
 #Features
 ##Backups
@@ -210,3 +210,5 @@ RCONPASS=BESTPASSWORDEVER # Will try to use this password to RCON to the server.
 The reason I say possible is because this is designed for my needs and will only be added if it is needed or highly requested.
 - [ ] Menu
 - [ ] Option to disable features
+- [ ] Script allowed to be run in the background without screen
+- [ ] Script Arguments 
