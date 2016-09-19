@@ -28,7 +28,7 @@ RCONPASS=			#Specify the RCON Pass. The password is set in server.properties
 
 
 function startServer () {
-	echo "StartServer Ran"
+	echo "Started Server"
 	screen -dmS $SCREENNAME java -Xmx$MAXRAM -Xms$MINRAM -jar $JARPATH.jar nogui
 }
 
@@ -88,13 +88,11 @@ function isRestartReady () {
 		else
 			HOUROFFSET=$((RESTARTHOUR - 1))
 		fi
-		echo "LT 10"
 		local MINOFFSET=$((10 - $RESTARTMIN))			
 		MIN=$((60 - MINOFFSET))
 
 	elif [[ $RESTARMIN -eq 10 ]]; then
 		HOUROFFSET=$RESTARTHOUR
-		echo "10"
 		MIN=0
 
 	else
@@ -102,7 +100,6 @@ function isRestartReady () {
 		echo "ELSE"
 		MIN=$((RESTARTMIN - 10))
 	fi
-	echo $MIN
 	
 	if [[ $(getHour) -eq $HOUROFFSET ]]; then
 		if [[ $(getMin) -eq $MIN ]]; then
@@ -170,8 +167,6 @@ do
 	isRestartReady
 	backUp
 	isServerUp
-	echo $(getDate)
-	echo $(getMin)
 sleep 60
-done
+done &
 
