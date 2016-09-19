@@ -148,7 +148,15 @@ NUMBACKUPS=4 #Will keep 4 back ups, when a 5th one is schedules it will begin re
 ```
 SCREENNAME=
 ```
-This is for naming the screen session that the Minecraft server is ran off of. This is also where you would have to go if you wanted to see the server console. This is used to have a constant session to check against when seeing if the server is live.
+This is for naming the screen session that the Minecraft server is ran off of. This is also where you would have to go if you wanted to see the server console. This is used to have a constant session to check against when seeing if the server is live. **IMPORTANT** If you are using something like CreeperHost and wish to still use the start/stop/restart buttons make sure to name the screen name the same as the one that they use. If you are unsure how to get the name, then while the server is running use the command:
+```
+screen -li
+```
+Example:
+```
+6131.Vanilla    (17/09/16 09:02:37)     (Detached)
+```
+The 6131 is the PID 'Vanilla' is the screen name. CreeperHost will have something like mc-182341 as its screen name. 
 ```
 SCREENNAME=BESTMC # When the screen is started it will be under the name "BESTMC"
 ```
