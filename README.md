@@ -53,15 +53,15 @@ You should run the Minecraft server once over on it's own so that you can get th
 
 Then either nano or vim into the MCGO.sh so that you can set the Variables needed to get the script running properly and to you specifications. 
 
-After everything has been set then go ahead start a new screen session with a name different then the one that you set in the Script
+After everything has been set then go ahead start a new screen session with a name different then the one that you set in the Script. In this I am going to use 'MCGO'
 ```
-screen -S SCREENNAME
+screen -S MCGO
 ```
 This will keep your session from being taken over by the script and can run in the background. Once you are in the session you can run the script. 
 ```
 ./MCGO.sh
 ```
-It should say "Script Started" and should take care of the features described. 
+It should say "Script Started" and should take care of the features described. **IMPORTANT** Read [this](https://www.rackaid.com/blog/linux-screen-tutorial-and-how-to/) to learn how to attach and detach from a screen without killing it. 
 
 # Examples Of Proper Variable Settings
 
