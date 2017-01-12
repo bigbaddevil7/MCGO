@@ -9,10 +9,10 @@
 BACKUPLOC=			#Specify the full path to the Backup Location
 WORLDLOC=			#Specify the full path to the world save location
 
-RESTARTHOUR=		#Set the Hour you want the server to restart 0-23 (0 = Midnight)
+RESTARTHOUR=		        #Set the Hour you want the server to restart 0-23 (0 = Midnight)
 RESTARTMIN=			#Set the Minute you want the server to restart 0-59
-BACKUPTIMER=		#Set how often you want the world to backup must be divisble by 10
-FAILCHECKTIMER=		#Set how often the server checks to see if it is still up must be divisble by 2
+BACKUPTIMER=		        #Set how often you want the world to backup must be divisble by 10
+FAILCHECKTIMER=		        #Set how often the server checks to see if it is still up must be divisble by 2
 
 NUMBACKUPS=			#Set the number of backups you want to keep, if the number is exceeded the oldest will be removed
 
